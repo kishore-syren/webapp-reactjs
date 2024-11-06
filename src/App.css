@@ -1,47 +1,33 @@
 .App {
   text-align: center;
-  background-color: #1b1b1b;
-}
-
-.story {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  gap: 10px;
-}
-
-.name {
   font-family: sans-serif;
-  font-size: 48px;
-  font-weight: 600;
-  color: #ffffff;
-  text-transform: uppercase;
 }
 
-img {
-  width: 200px;
-  height: 350px;
+.board {
+  display: inline-block;
 }
 
-.buttons {
+.board-row {
   display: flex;
-  gap: 5px;
-  width: 200px;
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
   font-weight: bold;
-  color: #1b1b1b;
-  background-color: #ffffff;
-  border: none;
+  margin: 4px;
   cursor: pointer;
-  width: 100%;
 }
 
-button:hover {
-  background-color: #d3d3d3;
+.status {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.restart-button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
 }
